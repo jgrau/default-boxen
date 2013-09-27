@@ -89,3 +89,7 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+class { 'nodejs::global':
+  version => 'v0.10'
+}
