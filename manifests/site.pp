@@ -90,6 +90,8 @@ node default {
   }
 
   # custom stuff
+  include python
+  include vim
   include macvim
   include virtualbox
   include chrome
