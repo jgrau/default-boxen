@@ -59,9 +59,8 @@ github "xquartz",    "1.1.0"
 
 github 'sysctl', '1.0.0'
 github 'osx', '2.2.0'
-# github 'alfred', '1.1.7'
-# github 'heroku', '2.0.0'
-# github 'hub', '1.2.0'
+github 'alfred', '1.1.7'
+github 'heroku', '2.0.0'
 github 'virtualbox', '1.0.9'
 github 'chrome', '1.1.2'
 github 'things', '1.0.1'

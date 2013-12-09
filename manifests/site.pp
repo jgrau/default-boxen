@@ -93,6 +93,7 @@ node default {
   include python
   include vim
   include macvim
+  include alfred
   include virtualbox
   include chrome
   include things
@@ -107,6 +108,11 @@ node default {
   include onepassword
   include dropbox
   include postgresql
+
+  include heroku
+  heroku::plugin { 'accounts':
+    source => 'ddollar/heroku-accounts'
+  }
 
   # custom packages
   package {
