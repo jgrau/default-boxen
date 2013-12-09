@@ -74,6 +74,7 @@ node default {
   include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
+  include ruby::2_0_0_p353
 
   # common, useful packages
   package {
@@ -87,6 +88,30 @@ node default {
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
+  }
+
+  # custom stuff
+  include virtualbox
+  include chrome
+  include things
+  include vlc
+  include macvim
+  include spotify
+  include transmit
+  include wget
+  include zsh
+  include ctags
+  include iterm2::dev
+  # include iterm2::colors::solarized_dark
+  include onepassword
+  include dropbox
+  include postgresql
+
+  # custom packages
+  package {
+  	[
+      'git-flow'
+  	]:
   }
 }
 
