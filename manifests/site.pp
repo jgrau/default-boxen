@@ -91,11 +91,12 @@ node default {
   }
 
   # custom stuff
+  include vim
+  include macvim
   include virtualbox
   include chrome
   include things
   include vlc
-  include macvim
   include spotify
   include transmit
   include wget

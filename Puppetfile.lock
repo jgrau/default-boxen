@@ -119,6 +119,11 @@ GITHUBTARBALL
     transmit (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vim
+  specs:
+    vim (1.0.5)
+
+GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
     virtualbox (1.0.9)
@@ -180,6 +185,7 @@ DEPENDENCIES
   sysctl (= 1.0.0)
   things (= 1.0.1)
   transmit (= 1.0.1)
+  vim (= 1.0.5)
   virtualbox (= 1.0.9)
   vlc (= 1.0.5)
   wget (= 1.0.0)
