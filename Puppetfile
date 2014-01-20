@@ -41,7 +41,7 @@ github "gcc",        "2.0.1"
 github "git",        "1.2.5"
 github "go",         "1.0.0"
 github "homebrew",   "1.5.1"
-github "hub",        "1.0.3"
+github "hub",        "1.3.0"
 github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.2"
 github "nodejs",     "3.3.0"
@@ -57,6 +57,7 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github 'python', '1.2.1'
 github 'sysctl', '1.0.0'
 github 'osx', '2.2.0'
 github 'alfred', '1.1.7'
@@ -65,7 +66,6 @@ github 'virtualbox', '1.0.9'
 github 'chrome', '1.1.2'
 github 'things', '1.0.1'
 github 'vlc', '1.0.5'
-github 'python', '1.1.1'
 github 'vim', '1.0.5'
 github 'macvim', '1.0.0'
 github 'spotify', '1.0.1'
@@ -76,4 +76,6 @@ github 'ctags', '1.0.0'
 github 'iterm2', '1.0.4'
 github 'onepassword', '1.1.0'
 github 'dropbox', '1.2.0'
+github 'skype', '1.0.8'
+github 'gitx', '1.2.0'
 github 'postgresql', '2.0.1'

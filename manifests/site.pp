@@ -106,6 +106,8 @@ node default {
   # include iterm2::colors::solarized_dark
   include onepassword
   include dropbox
+  include skype
+  include gitx::dev
   include postgresql
 
   include vim
@@ -134,7 +136,7 @@ node default {
     'tpope/vim-surround',
     'tpope/vim-repeat',
     'nelstrom/vim-textobj-rubyblock',
-    'vim-textobj-user',
+    'kana/vim-textobj-user',
     'tpope/vim-unimpaired',
     'godlygeek/tabular',
     'scrooloose/syntastic',
