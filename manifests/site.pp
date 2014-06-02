@@ -55,7 +55,7 @@ node default {
   # core modules, needed for most things
   include dnsmasq
   include git
-  include hub
+  # include hub
   include nginx
 
   # fail if FDE is not enabled
@@ -69,11 +69,11 @@ node default {
   include nodejs::v0_10
 
   # default ruby versions
-  include ruby::1_8_7
   include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
   include ruby::2_0_0_p353
+  include ruby::2_1_1
 
   # common, useful packages
   package {
@@ -109,6 +109,11 @@ node default {
   include skype
   include gitx::dev
   include postgresql
+  include tmux
+  include imagemagick
+  include xquartz
+  include java
+  include firefox
 
   include vim
   vim::bundle { [
@@ -150,9 +155,9 @@ node default {
 
   # custom packages
   package {
-  	[
+    [
       'git-flow'
-  	]:
+    ]:
   }
 }
 

@@ -49,15 +49,16 @@ github "openssl",    "1.0.0"
 github "phantomjs",  "2.0.2"
 github "pkgconfig",  "1.0.0"
 github "repository", "2.2.0"
-github "ruby",       "6.7.6"
+github "ruby",       "8.0.3"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
-github "xquartz",    "1.1.0"
+github "xquartz",    "1.1.1"
+github "tmux",       "1.0.2"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github 'python', '1.2.1'
+github 'python', '1.3.0'
 github 'sysctl', '1.0.0'
 github 'osx', '2.2.0'
 github 'alfred', '1.1.7'
@@ -78,4 +79,8 @@ github 'onepassword', '1.1.0'
 github 'dropbox', '1.2.0'
 github 'skype', '1.0.8'
 github 'gitx', '1.2.0'
-github 'postgresql', '2.0.1'
+github 'postgresql', '3.0.1'
+github 'mysql', '1.2.0'
+github 'imagemagick', '1.2.0'
+github 'java', '2.0.1', :repo => 'csabapalfi/puppet-java'
+github 'firefox', '1.2.0'
