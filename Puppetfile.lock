@@ -89,11 +89,6 @@ GITHUBTARBALL
     macvim (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-mysql
-  specs:
-    mysql (1.2.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.3)
@@ -174,6 +169,11 @@ GITHUBTARBALL
     things (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tmux
+  specs:
+    tmux (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-transmit
   specs:
     transmit (1.0.1)
@@ -250,7 +250,6 @@ DEPENDENCIES
   java (= 2.0.1)
   macvim (= 1.0.0)
   module-data (= 0.0.3)
-  mysql (= 1.2.0)
   nginx (= 1.4.3)
   nodejs (= 3.7.0)
   onepassword (= 1.1.0)
@@ -268,6 +267,7 @@ DEPENDENCIES
   sudo (= 1.0.0)
   sysctl (= 1.0.0)
   things (= 1.0.1)
+  tmux (= 1.0.2)
   transmit (= 1.0.1)
   vim (= 1.0.5)
   virtualbox (= 1.0.9)
