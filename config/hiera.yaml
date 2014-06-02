@@ -21,4 +21,4 @@
 # ...
 # besides the modules that use it, you might want to override deeply nested hash
 # values, too!
-:merge_behavior: deeperhub::alias_hub_to_git: false
+:merge_behavior: deeper
