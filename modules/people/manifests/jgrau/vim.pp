@@ -28,6 +28,10 @@ class people::jgrau::vim {
     'godlygeek/tabular',
     'scrooloose/syntastic',
     'sjl/gundo.vim',
-    'kien/ctrlp.vim'
+    'kien/ctrlp.vim',
+    'skalnik/vim-vroom',
+    'sunaku/vim-ruby-minitest',
+    'vim-scripts/taglist.vim',
+    'majutsushi/tagbar'
   ]: }
 }
