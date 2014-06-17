@@ -29,7 +29,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "3.4.2"
+github "boxen", "3.6.1"
 
 # Support for default hiera data in modules
 
@@ -62,13 +62,13 @@ github "xquartz",     "1.1.1"
 
 github 'python', '1.3.0'
 github 'sysctl', '1.0.0'
-github 'osx', '2.2.0'
+github 'osx', '2.4.0'
 github 'alfred', '1.1.7'
-github 'heroku', '2.0.0'
+github 'heroku', '2.1.1'
 github 'virtualbox', '1.0.9'
 github 'chrome', '1.1.2'
 github 'things', '1.0.1'
-github 'vlc', '1.0.5'
+github 'vlc', '1.1.0'
 github 'vim', '1.0.5'
 github 'macvim', '1.0.0'
 github 'spotify', '1.0.1'
@@ -76,7 +76,7 @@ github 'transmit', '1.0.1'
 github 'wget', '1.0.0'
 github 'zsh', '1.0.0'
 github 'ctags', '1.0.0'
-github 'iterm2', '1.0.4'
+github 'iterm2', '1.0.9'
 github 'onepassword', '1.1.0'
 github 'dropbox', '1.2.0'
 github 'skype', '1.0.8'
@@ -87,3 +87,5 @@ github 'java', '2.0.1', :repo => 'csabapalfi/puppet-java'
 github 'firefox', '1.2.0'
 github 'tmux','1.0.2'
 github 'mysql', '1.1.5'
+github 'caffeine', '1.0.0'
+github 'hipchat', '1.1.2'

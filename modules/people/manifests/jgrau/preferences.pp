@@ -1,4 +1,4 @@
-class people:jgrau:preferences {
+class people::jgrau::preferences {
   include osx::global::disable_remote_control_ir_receiver
   include osx::global::enable_keyboard_control_access
   include osx::global::expand_print_dialog

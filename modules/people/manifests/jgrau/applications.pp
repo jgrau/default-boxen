@@ -1,4 +1,4 @@
-class people:jgrau:applications {
+class people::jgrau::applications {
   include python
   include python::virtualenvwrapper
   include macvim
@@ -13,8 +13,8 @@ class people:jgrau:applications {
   include zsh
   include ctags
   include iterm2::dev
-  include iterm2::colors::solarized_light
-  include iterm2::colors::solarized_dark
+  # include iterm2::colors::solarized_light
+  # include iterm2::colors::solarized_dark
   include onepassword
   include dropbox
   include skype
@@ -32,7 +32,6 @@ class people:jgrau:applications {
 
   package {
     [
-      'tmux',
       'git-flow'
     ]:
       ensure => 'latest',
