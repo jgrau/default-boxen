@@ -10,5 +10,4 @@ class people::jgrau::preferences {
   include osx::finder::show_hidden_files
   include osx::disable_app_quarantine
   include osx::no_network_dsstores
-  include osx::software_update
 }
