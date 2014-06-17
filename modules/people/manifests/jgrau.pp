@@ -1,5 +1,6 @@
 class people::jgrau {
-  include projects::all
+  include projects::sofus
+  include projects::sofia
 
   include python
   include macvim

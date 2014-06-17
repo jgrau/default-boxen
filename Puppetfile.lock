@@ -89,6 +89,11 @@ GITHUBTARBALL
     macvim (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-mysql
+  specs:
+    mysql (1.1.5)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.3)
@@ -250,6 +255,7 @@ DEPENDENCIES
   java (= 2.0.1)
   macvim (= 1.0.0)
   module-data (= 0.0.3)
+  mysql (= 1.1.5)
   nginx (= 1.4.3)
   nodejs (= 3.7.0)
   onepassword (= 1.1.0)
