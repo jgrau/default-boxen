@@ -32,7 +32,8 @@ class people::jgrau::applications {
 
   package {
     [
-      'git-flow'
+      'git-flow',
+      'reattach-to-user-namespace'
     ]:
       ensure => 'latest',
   }
