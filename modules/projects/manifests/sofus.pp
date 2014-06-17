@@ -4,4 +4,8 @@ class projects::sofus {
     mysql => true,
     source     => 'dogndata/sofus'
   }
+
+  package { 'phantomjs':
+    ensure => present
+  }
 }
