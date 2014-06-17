@@ -9,8 +9,12 @@ class people::jgrau::dotfiles {
     }
   }
 
-  repository { "${::boxen::config::srcdir}/dotfiles":
-    source => "${::boxen_user}/dotfiles",
+  repository {
+    'Personal dotfiles':
+      ensure   => 'origin/HEAD',
+      source => "${::boxen_user}/dotfiles",
+      path     => "${boxen::config::srcdir}/dotfiles",
+      provider => 'git',
   }
 
   dotfile { '.antigen': }
