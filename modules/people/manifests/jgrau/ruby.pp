@@ -6,9 +6,4 @@ class people::jgrau::ruby {
     version      => '~> 1.0',
     ruby_version => '*',
   }
-
-  ruby_gem { 'consular for all rubies':
-    gem          => 'consular',
-    ruby_version => '*',
-  }
 }
