@@ -23,5 +23,7 @@ class people::jgrau::dotfiles {
   dotfile { '.zshrc': }
   dotfile { '.ctags': }
   dotfile { '.ackrc': }
+  dotfile { '.tmux.conf': }
+  dotfile { '.tmuxinator': }
 }
 
