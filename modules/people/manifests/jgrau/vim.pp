@@ -35,6 +35,7 @@ class people::jgrau::vim {
     'tomtom/tlib_vim',
     'MarcWeber/vim-addon-mw-utils',
     'garbas/vim-snipmate',
-    'honza/vim-snippets'
+    'honza/vim-snippets',
+    'ervandew/supertab'
   ]: }
 }

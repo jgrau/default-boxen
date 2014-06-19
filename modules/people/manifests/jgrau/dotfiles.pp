@@ -25,5 +25,6 @@ class people::jgrau::dotfiles {
   dotfile { '.ackrc': }
   dotfile { '.tmux.conf': }
   dotfile { '.tmuxinator': }
+  dotfile { '.git_template': }
 }
 
