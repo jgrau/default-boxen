@@ -14,7 +14,6 @@ class people::jgrau::vim {
     'pangloss/vim-javascript',
     'kchmck/vim-coffee-script',
     'vim-ruby/vim-ruby',
-    'msanders/snipmate.vim',
     'scrooloose/nerdtree',
     'tomtom/tcomment_vim',
     'mileszs/ack.vim',
@@ -32,6 +31,10 @@ class people::jgrau::vim {
     'skalnik/vim-vroom',
     'sunaku/vim-ruby-minitest',
     'vim-scripts/taglist.vim',
-    'majutsushi/tagbar'
+    'majutsushi/tagbar',
+    'tomtom/tlib_vim',
+    'MarcWeber/vim-addon-mw-utils',
+    'garbas/vim-snipmate',
+    'honza/vim-snippets'
   ]: }
 }
