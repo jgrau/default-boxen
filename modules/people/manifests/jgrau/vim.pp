@@ -32,8 +32,8 @@ class people::jgrau::vim {
     'sunaku/vim-ruby-minitest',
     'vim-scripts/taglist.vim',
     'majutsushi/tagbar',
-    'tomtom/tlib_vim',
-    'MarcWeber/vim-addon-mw-utils',
+    'tomtom/tlib_vim', # required by snipmate
+    'MarcWeber/vim-addon-mw-utils', # required by snipmate
     'garbas/vim-snipmate',
     'honza/vim-snippets',
     'ervandew/supertab'
