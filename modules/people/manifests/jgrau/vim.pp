@@ -1,6 +1,5 @@
 class people::jgrau::vim {
   vim::bundle { [
-    'rodjek/vim-puppet',
     'tpope/vim-fugitive',
     'tpope/vim-markdown',
     'tpope/vim-haml',
@@ -12,21 +11,24 @@ class people::jgrau::vim {
     'tpope/vim-unimpaired',
     'tpope/vim-abolish',
     'tpope/vim-sleuth',
-    'pangloss/vim-javascript',
-    'kchmck/vim-coffee-script',
+    'tpope/vim-commentary',
+    'tpope/vim-endwise',
+    'gcmt/wildfire.vim',
     'vim-ruby/vim-ruby',
+    'rodjek/vim-puppet',
     'scrooloose/nerdtree',
-    'tomtom/tcomment_vim',
-    'mileszs/ack.vim',
+    'scrooloose/syntastic',
     'rizzatti/funcoo.vim',
     'rizzatti/dash.vim',
+    'pangloss/vim-javascript',
+    'kchmck/vim-coffee-script',
+    'mileszs/ack.vim',
     'vim-scripts/Toggle',
     'bling/vim-airline',
     'altercation/vim-colors-solarized',
     'nelstrom/vim-textobj-rubyblock',
     'kana/vim-textobj-user',
     'godlygeek/tabular',
-    'scrooloose/syntastic',
     'kien/ctrlp.vim',
     'skalnik/vim-vroom',
     'sunaku/vim-ruby-minitest',
@@ -36,6 +38,7 @@ class people::jgrau::vim {
     'MarcWeber/vim-addon-mw-utils', # required by snipmate
     'garbas/vim-snipmate',
     'honza/vim-snippets',
+    'nelstrom/vim-visual-star-search',
     'ervandew/supertab'
   ]: }
 }
