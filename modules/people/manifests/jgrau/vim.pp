@@ -13,6 +13,7 @@ class people::jgrau::vim {
     'tpope/vim-sleuth',
     'tpope/vim-commentary',
     'tpope/vim-endwise',
+    'tpope/vim-dispatch',
     'gcmt/wildfire.vim',
     'vim-ruby/vim-ruby',
     'rodjek/vim-puppet',
