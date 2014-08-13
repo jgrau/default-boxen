@@ -1,9 +1,18 @@
 class people::jgrau::git {
   # Install git without completions as it breaks git-flow completions
   package { 'git':
-    ensure => present,
+    ensure          => present,
     install_options => [
       '--without-completions'
     ],
+  }
+
+  # Set up my git archives. I want it very distributed
+  repository {
+    'git-archives':
+      ensure   => 'origin/HEAD',
+      source   => "${::boxen_user}/git-archives",
+      path     => "${boxen::config::srcdir}/git-archives",
+      provider => 'git',
   }
 }
