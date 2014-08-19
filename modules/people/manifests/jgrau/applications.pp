@@ -33,7 +33,8 @@ class people::jgrau::applications {
   package {
     [
       'git-flow',
-      'reattach-to-user-namespace'
+      'reattach-to-user-namespace',
+      'direnv'
     ]:
       ensure => 'latest',
   }
