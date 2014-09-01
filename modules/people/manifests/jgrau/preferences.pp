@@ -5,7 +5,7 @@ class people::jgrau::preferences {
   include osx::global::expand_save_dialog
   include osx::global::disable_autocorrect
   class { 'osx::global::key_repeat_rate': rate => 2 }
-  class { 'osx::global::key_repeat_delay': delay => 10 }
+  class { 'osx::global::key_repeat_delay': delay => 15 }
   include osx::dock::autohide
   include osx::finder::show_hidden_files
   include osx::disable_app_quarantine
