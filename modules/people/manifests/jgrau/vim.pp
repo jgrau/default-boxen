@@ -14,6 +14,8 @@ class people::jgrau::vim {
     'tpope/vim-commentary',
     'tpope/vim-endwise',
     'tpope/vim-dispatch',
+    'tpope/vim-ragtag',
+    'airblade/vim-gitgutter',
     'gcmt/wildfire.vim',
     'vim-ruby/vim-ruby',
     'rodjek/vim-puppet',
