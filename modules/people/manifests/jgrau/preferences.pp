@@ -4,7 +4,6 @@ class people::jgrau::preferences {
   include osx::global::expand_print_dialog
   include osx::global::expand_save_dialog
   include osx::global::disable_autocorrect
-  include osx::global::tap_to_click
   include osx::dock::autohide
   include osx::finder::show_hidden_files
   include osx::finder::empty_trash_securely
