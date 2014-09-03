@@ -15,4 +15,8 @@ class people::jgrau::git {
       path     => "${boxen::config::srcdir}/git-archives",
       provider => 'git',
   }
+
+  git::config::global { 'pull.rebase':
+      value => true
+  }
 }
