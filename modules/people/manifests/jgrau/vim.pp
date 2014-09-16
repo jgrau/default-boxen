@@ -1,4 +1,6 @@
 class people::jgrau::vim {
+  include vim
+
   vim::bundle { [
     'tpope/vim-fugitive',
     'tpope/vim-markdown',
@@ -15,6 +17,7 @@ class people::jgrau::vim {
     'tpope/vim-endwise',
     'tpope/vim-dispatch',
     'tpope/vim-ragtag',
+    'tpope/vim-sensible',
     'gcmt/wildfire.vim',
     'vim-ruby/vim-ruby',
     'rodjek/vim-puppet',
@@ -41,6 +44,9 @@ class people::jgrau::vim {
     'garbas/vim-snipmate',
     'honza/vim-snippets',
     'nelstrom/vim-visual-star-search',
-    'ervandew/supertab'
+    'ervandew/supertab',
+    'AndrewRadev/splitjoin.vim',
+    'othree/html5.vim',
+    'benmills/vimux'
   ]: }
 }
