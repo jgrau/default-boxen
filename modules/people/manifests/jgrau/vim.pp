@@ -47,6 +47,7 @@ class people::jgrau::vim {
     'ervandew/supertab',
     'AndrewRadev/splitjoin.vim',
     'othree/html5.vim',
-    'benmills/vimux'
+    'benmills/vimux',
+    'thoughtbot/vim-rspec'
   ]: }
 }
