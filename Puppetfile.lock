@@ -6,7 +6,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.6.2)
+    boxen (3.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-caffeine
@@ -26,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
-    dnsmasq (1.0.1)
+    dnsmasq (2.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
@@ -46,7 +46,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (2.1.1)
+    gcc (2.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
@@ -76,7 +76,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.9.4)
+    homebrew (1.9.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -161,7 +161,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.1.2)
+    ruby (8.1.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-skype
@@ -221,7 +221,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
-    xquartz (1.1.1)
+    xquartz (1.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-zsh
@@ -244,6 +244,7 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+<<<<<<< HEAD
   alfred (= 1.1.7)
   boxen (= 3.6.2)
   caffeine (= 1.0.0)
@@ -252,14 +253,22 @@ DEPENDENCIES
   dnsmasq (= 1.0.1)
   dropbox (= 1.2.0)
   firefox (= 1.2.0)
+=======
+  boxen (= 3.7.0)
+  dnsmasq (= 2.0.0)
+>>>>>>> upstream/master
   foreman (= 1.2.0)
-  gcc (= 2.1.1)
+  gcc (= 2.2.0)
   git (= 2.5.0)
   gitx (= 1.2.0)
   go (= 1.1.0)
+<<<<<<< HEAD
   heroku (= 2.1.1)
   hipchat (= 1.1.2)
   homebrew (= 1.9.4)
+=======
+  homebrew (= 1.9.5)
+>>>>>>> upstream/master
   hub (= 1.3.0)
   imagemagick (= 1.2.0)
   inifile (= 1.1.1)
@@ -278,6 +287,7 @@ DEPENDENCIES
   postgresql (= 3.0.1)
   python (= 1.3.0)
   repository (= 2.3.0)
+<<<<<<< HEAD
   ruby (= 8.1.2)
   skype (= 1.0.8)
   spotify (= 1.0.1)
@@ -294,3 +304,9 @@ DEPENDENCIES
   xquartz (= 1.1.1)
   zsh (= 1.0.0)
 
+=======
+  ruby (= 8.1.4)
+  stdlib (= 4.2.1)
+  sudo (= 1.0.0)
+  xquartz (= 1.2.1)
+>>>>>>> upstream/master
