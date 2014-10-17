@@ -48,6 +48,8 @@ class people::jgrau::vim {
     'AndrewRadev/splitjoin.vim',
     'othree/html5.vim',
     'benmills/vimux',
-    'thoughtbot/vim-rspec'
+    'thoughtbot/vim-rspec',
+    'prophittcorey/vim-flay',
+    'rainerborene/vim-reek'
   ]: }
 }
