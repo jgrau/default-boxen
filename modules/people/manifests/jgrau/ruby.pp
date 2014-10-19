@@ -7,8 +7,13 @@ class people::jgrau::ruby {
     ruby_version => '*',
   }
 
-  ruby_gem { "bundler for 2.0.0":
+  ruby_gem { "tmuxinator":
     gem              => 'tmuxinator',
-    ruby_version => '2.0.0',
+    ruby_version => '*',
+  }
+
+  ruby_gem { 'git up':
+    gem          => 'git-up',
+    ruby_version => '*',
   }
 }
