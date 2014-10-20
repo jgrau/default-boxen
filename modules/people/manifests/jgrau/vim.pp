@@ -50,6 +50,9 @@ class people::jgrau::vim {
     'benmills/vimux',
     'thoughtbot/vim-rspec',
     'prophittcorey/vim-flay',
-    'rainerborene/vim-reek'
+    'rainerborene/vim-reek',
+    'mattn/webapi-vim',
+    'codegram/vim-codereview',
+    'mmozuras/vim-github-comment'
   ]: }
 }
