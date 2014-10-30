@@ -16,4 +16,9 @@ class people::jgrau::ruby {
     gem          => 'git-up',
     ruby_version => '*',
   }
+
+  ruby_gem { 'flay':
+    gem          => 'flay',
+    ruby_version => '*',
+  }
 }
