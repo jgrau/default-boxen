@@ -19,4 +19,8 @@ class people::jgrau::git {
   git::config::global { 'pull.rebase':
       value => true
   }
+
+  git::config::global { 'push.default':
+      value => 'simple'
+  }
 }
