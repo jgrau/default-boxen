@@ -29,6 +29,7 @@ class people::jgrau::applications {
   include hipchat
   include vim
   include heroku
+  include slate
 
   package {
     [

@@ -16,6 +16,14 @@ class people::jgrau::git {
       provider => 'git',
   }
 
+  git::config::global { 'user.name':
+      value => 'Jonas Grau'
+  }
+
+  git::config::global { 'user.email':
+      value => 'jonas.grau@gmail.com'
+  }
+
   git::config::global { 'pull.rebase':
       value => true
   }
