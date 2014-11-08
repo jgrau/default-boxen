@@ -26,5 +26,7 @@ class people::jgrau::dotfiles {
   dotfile { '.tmux.conf': }
   dotfile { '.tmuxinator': }
   dotfile { '.git_template': }
+  dotfile { '.reslate.js': }
+  dotfile { '.slate.js': }
 }
 
