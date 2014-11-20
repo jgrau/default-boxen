@@ -53,6 +53,7 @@ class people::jgrau::vim {
     'rainerborene/vim-reek',
     'mattn/webapi-vim',
     'codegram/vim-codereview',
-    'mmozuras/vim-github-comment'
+    'mmozuras/vim-github-comment',
+    'jgdavey/tslime.vim'
   ]: }
 }
