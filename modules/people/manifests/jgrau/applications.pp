@@ -30,6 +30,7 @@ class people::jgrau::applications {
   include vim
   include heroku
   include slate
+  include screenhero
 
   package {
     [
