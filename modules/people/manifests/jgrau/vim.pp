@@ -49,7 +49,6 @@ class people::jgrau::vim {
     'othree/html5.vim',
     'benmills/vimux',
     'thoughtbot/vim-rspec',
-    'prophittcorey/vim-flay',
     'rainerborene/vim-reek',
     'mattn/webapi-vim',
     'codegram/vim-codereview',
