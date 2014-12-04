@@ -1,6 +1,6 @@
 class people::jgrau::applications {
-  include python
-  include python::virtualenvwrapper
+  # include python::virtualenvwrapper
+  # include python
   include macvim
   include alfred
   include virtualbox
