@@ -53,6 +53,7 @@ class people::jgrau::vim {
     'mattn/webapi-vim',
     'codegram/vim-codereview',
     'mmozuras/vim-github-comment',
-    'jgdavey/tslime.vim'
+    'jgdavey/tslime.vim',
+    'toyamarinyon/vim-swift'
   ]: }
 }
