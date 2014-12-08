@@ -54,7 +54,7 @@ class people::jgrau::vim {
     'codegram/vim-codereview',
     'mmozuras/vim-github-comment',
     'jgdavey/tslime.vim',
-    'toyamarinyon/vim-swift'
+    'toyamarinyon/vim-swift',
     'takac/vim-hardtime',
     'christoomey/vim-tmux-navigator',
     'tpope/vim-vinegar',
