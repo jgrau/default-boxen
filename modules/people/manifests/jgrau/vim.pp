@@ -55,5 +55,9 @@ class people::jgrau::vim {
     'mmozuras/vim-github-comment',
     'jgdavey/tslime.vim',
     'toyamarinyon/vim-swift'
+    'takac/vim-hardtime',
+    'christoomey/vim-tmux-navigator',
+    'tpope/vim-vinegar',
+    'jeffkreeftmeijer/vim-numbertoggle'
   ]: }
 }
