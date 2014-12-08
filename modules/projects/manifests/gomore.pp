@@ -8,4 +8,8 @@ class projects::gomore {
     elasticsearch => true,
     source        => 'gomore/gomore-web'
   }
+
+  service {'dev.elasticsearch':
+    ensure => 'stopped',
+  }
 }
