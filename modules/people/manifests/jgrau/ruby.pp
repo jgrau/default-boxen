@@ -7,8 +7,8 @@ class people::jgrau::ruby {
     ruby_version => '*',
   }
 
-  ruby_gem { "tmuxinator":
-    gem              => 'tmuxinator',
+  ruby_gem { 'tmuxinator':
+    gem          => 'tmuxinator',
     ruby_version => '*',
   }
 
@@ -19,6 +19,11 @@ class people::jgrau::ruby {
 
   ruby_gem { 'flay':
     gem          => 'flay',
+    ruby_version => '*',
+  }
+
+  ruby_gem { 'cocoapods':
+    gem          => 'cocoapods',
     ruby_version => '*',
   }
 }
