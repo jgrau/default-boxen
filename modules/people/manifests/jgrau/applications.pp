@@ -37,7 +37,8 @@ class people::jgrau::applications {
       'git-flow',
       'reattach-to-user-namespace',
       'direnv',
-      'the_silver_searcher'
+      'the_silver_searcher',
+      'cmake'
     ]:
       ensure => 'latest',
   }

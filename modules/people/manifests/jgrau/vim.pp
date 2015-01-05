@@ -65,4 +65,8 @@ class people::jgrau::vim {
     'rking/ag.vim',
     'Valloric/YouCompleteMe'
   ]: }
+
+  # Build YouCompleteMe with
+  # cd ~/.vim/bundle/YouCompleteMe
+  # ./install.sh --clang-completer
 }
