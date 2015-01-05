@@ -36,7 +36,8 @@ class people::jgrau::applications {
     [
       'git-flow',
       'reattach-to-user-namespace',
-      'direnv'
+      'direnv',
+      'the_silver_searcher'
     ]:
       ensure => 'latest',
   }

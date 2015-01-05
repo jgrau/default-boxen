@@ -61,6 +61,8 @@ class people::jgrau::vim {
     'jeffkreeftmeijer/vim-numbertoggle',
     'skwp/greplace.vim',
     'nelstrom/vim-qargs',
-    'dkprice/vim-easygrep'
+    'dkprice/vim-easygrep',
+    'rking/ag.vim',
+    'Valloric/YouCompleteMe'
   ]: }
 }
