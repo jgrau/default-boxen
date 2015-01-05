@@ -21,9 +21,4 @@ class people::jgrau::ruby {
     gem          => 'flay',
     ruby_version => '*',
   }
-
-  ruby_gem { 'cocoapods':
-    gem          => 'cocoapods',
-    ruby_version => '*',
-  }
 }

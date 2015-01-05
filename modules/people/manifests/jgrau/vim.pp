@@ -58,6 +58,9 @@ class people::jgrau::vim {
     'takac/vim-hardtime',
     'christoomey/vim-tmux-navigator',
     'tpope/vim-vinegar',
-    'jeffkreeftmeijer/vim-numbertoggle'
+    'jeffkreeftmeijer/vim-numbertoggle',
+    'skwp/greplace.vim',
+    'nelstrom/vim-qargs',
+    'dkprice/vim-easygrep'
   ]: }
 }
