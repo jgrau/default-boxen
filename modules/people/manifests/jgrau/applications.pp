@@ -40,7 +40,8 @@ class people::jgrau::applications {
       'reattach-to-user-namespace',
       'direnv',
       'the_silver_searcher',
-      'cmake'
+      'cmake',
+      'ngrok'
     ]:
       ensure => 'latest',
   }
