@@ -52,7 +52,7 @@ github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
-github "ruby",        "8.1.4"
+github "ruby",        "8.3.0"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
@@ -92,3 +92,4 @@ github 'hipchat', '1.1.2'
 github 'elasticsearch', '2.7.0'
 github 'slate', '1.0.1'
 github 'screenhero', '1.0.1'
+github 'transmission', '1.1.0'

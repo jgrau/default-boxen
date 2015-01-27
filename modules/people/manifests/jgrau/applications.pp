@@ -31,6 +31,7 @@ class people::jgrau::applications {
   include heroku
   include slate
   include screenhero
+  include transmission
 
   package {
     [
