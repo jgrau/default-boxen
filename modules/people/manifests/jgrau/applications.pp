@@ -32,6 +32,7 @@ class people::jgrau::applications {
   include slate
   include screenhero
   include transmission
+  include appcleaner
 
   package {
     [
