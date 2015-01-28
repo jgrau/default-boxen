@@ -9,5 +9,4 @@ class people::jgrau {
   include people::jgrau::git
   include people::jgrau::ruby
   include people::jgrau::vim
-  include people::jgrau::heroku
 }
