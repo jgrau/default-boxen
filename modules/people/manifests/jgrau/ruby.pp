@@ -1,4 +1,7 @@
 class people::jgrau::ruby {
+  class { 'ruby::global':
+    version => '2.0.0'
+  }
 
   # ensure a gem is installed for all ruby versions
   ruby_gem { 'bundler for all rubies':
