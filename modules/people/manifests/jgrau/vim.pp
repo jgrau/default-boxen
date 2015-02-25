@@ -49,13 +49,8 @@ class people::jgrau::vim {
     'jeffkreeftmeijer/vim-numbertoggle',
     'dkprice/vim-easygrep',
     'rking/ag.vim',
-    'Valloric/YouCompleteMe',
     'terryma/vim-expand-region',
     'gregsexton/gitv',
     'janko-m/vim-test'
   ]: }
-
-  # Build YouCompleteMe with
-  # cd ~/.vim/bundle/YouCompleteMe
-  # ./install.sh --clang-completer
 }
