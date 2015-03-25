@@ -51,6 +51,9 @@ class people::jgrau::vim {
     'rking/ag.vim',
     'terryma/vim-expand-region',
     'gregsexton/gitv',
-    'janko-m/vim-test'
+    'janko-m/vim-test',
+    'benmills/vimux',
+    'kikijump/tslime.vim',
+    'ervandew/supertab'
   ]: }
 }
