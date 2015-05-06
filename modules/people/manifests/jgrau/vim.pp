@@ -54,6 +54,7 @@ class people::jgrau::vim {
     'janko-m/vim-test',
     'benmills/vimux',
     'kikijump/tslime.vim',
-    'ervandew/supertab'
+    'ervandew/supertab',
+    'wakatime/vim-wakatime'
   ]: }
 }
