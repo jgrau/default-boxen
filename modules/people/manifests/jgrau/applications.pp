@@ -33,6 +33,7 @@ class people::jgrau::applications {
   include screenhero
   include transmission
   include appcleaner
+  include dash
 
   package {
     [
@@ -40,7 +41,6 @@ class people::jgrau::applications {
       'reattach-to-user-namespace',
       'direnv',
       'the_silver_searcher',
-      'cmake',
       'ngrok'
     ]:
       ensure => 'latest',
