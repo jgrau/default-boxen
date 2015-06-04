@@ -2,3 +2,4 @@ hub::alias_hub_to_git: false
 ruby::provider: "rbenv"
 ruby::build::ensure: "v20150413"
 ruby::rbenv::ensure: "v0.4.0"
+java::update_version: '71'
