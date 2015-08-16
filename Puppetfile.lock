@@ -44,6 +44,11 @@ GITHUBTARBALL
     dnsmasq (2.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-docker
+  specs:
+    docker (0.9.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
     dropbox (1.4.1)
@@ -288,6 +293,7 @@ DEPENDENCIES
   ctags (= 1.0.0)
   dash (= 1.0.0)
   dnsmasq (= 2.0.1)
+  docker (= 0.9.0)
   dropbox (= 1.4.1)
   elasticsearch (= 2.7.0)
   firefox (= 1.2.3)
