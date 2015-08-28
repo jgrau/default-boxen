@@ -1,0 +1,8 @@
+class projects::bengo {
+  boxen::project { 'bengo':
+    ruby          => '2.2.2',
+    postgresql    => true,
+    nginx         => true,
+    source        => 'jgrau/bengo'
+  }
+}

@@ -2,6 +2,7 @@ class people::jgrau {
   include projects::sofus
   include projects::sofia
   include projects::gomore
+  include projects::bengo
 
   include people::jgrau::applications
   include people::jgrau::preferences
