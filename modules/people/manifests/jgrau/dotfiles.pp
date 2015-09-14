@@ -20,6 +20,7 @@ class people::jgrau::dotfiles {
   dotfile { '.antigen': }
   dotfile { '.consularc': }
   dotfile { '.vimrc': }
+  dotfile { '.nvimrc': }
   dotfile { '.zshrc': }
   dotfile { '.ctags': }
   dotfile { '.ackrc': }
