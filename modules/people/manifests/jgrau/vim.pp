@@ -3,7 +3,7 @@ class people::jgrau::vim {
   homebrew::tap { 'neovim/neovim': }
 
   package { 'neovim':
-    ensure          => present,
+    ensure          => latest,
     install_options => [
       '--HEAD'
     ]
