@@ -1,8 +1,5 @@
 class people::jgrau {
-  include projects::sofus
-  include projects::sofia
-  include projects::gomore
-  include projects::bengo
+  include projects::all
 
   include people::jgrau::applications
   include people::jgrau::preferences
