@@ -41,7 +41,8 @@ class people::jgrau::applications {
       'reattach-to-user-namespace',
       'direnv',
       'the_silver_searcher',
-      'ngrok'
+      'ngrok',
+      'awscli'
     ]:
       ensure => 'latest',
   }
